@@ -13,8 +13,8 @@ void main() {
     });
 
     // 色が違うので失敗するテスト
-    test("色がセカンダリーか？", () {
-      final actual = Color.fromARGB(255, 38, 96, 91);
+    test("色がオレンジか？", () {
+      final actual = Color(0xFFfcba03);
       expect(actual, secondaryColor);
     });
   });
